@@ -492,7 +492,7 @@ def dif_render(
 
 
 if __name__ == "__main__":
-    # Siple example
+    # Simple example
     def half_globe_shape( radius=500):
         size = radius * 2
         x, y = np.meshgrid(np.arange(size), np.arange(size))
