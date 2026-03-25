@@ -492,6 +492,7 @@ def dif_render(
 
 
 if __name__ == "__main__":
+    # Siple example
     def half_globe_shape( radius=500):
         size = radius * 2
         x, y = np.meshgrid(np.arange(size), np.arange(size))
@@ -503,12 +504,6 @@ if __name__ == "__main__":
         
         hemisphere =  np.sqrt(radius**2 - distances**2)
         return hemisphere
-    
-    
-    
-    #depth_map = np.load(r"image_73723_a_input_sas.npy")
-    
-    #depth_map /= 5
     
     depth_map = np.zeros((224,224))
         
